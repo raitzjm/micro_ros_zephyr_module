@@ -2,8 +2,8 @@
 Changelog for package micro_ros_zephyr
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+3.0.2 (2024-06-03)
+------------------
 * Fix of unknown Ringbuffer and not found USB-Serial Device (backport `#125 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/125>`_) (`#129 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/129>`_)
   * Fix of unknown Ringbuffer and not found USB-Serial Device (`#125 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/125>`_)
   * Added Ringbuffer-config in prj.conf for eliminating error
