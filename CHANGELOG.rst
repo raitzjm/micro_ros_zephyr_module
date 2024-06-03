@@ -2,8 +2,8 @@
 Changelog for package micro_ros_zephyr
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.1 (2024-06-03)
+------------------
 * Fix of unknown Ringbuffer and not found USB-Serial Device (`#125 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/125>`_)
   * Added Ringbuffer-config in prj.conf for eliminating error
   * Added Label CDC_ACM_0 label with an overlay so "modules/libmicroros/microros_transports/serial-usb/microros_transports.c" can find the device
