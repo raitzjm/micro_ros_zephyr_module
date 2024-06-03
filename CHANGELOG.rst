@@ -2,6 +2,39 @@
 Changelog for package micro_ros_zephyr
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Fix of unknown Ringbuffer and not found USB-Serial Device (`#125 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/125>`_)
+  * Added Ringbuffer-config in prj.conf for eliminating error
+  * Added Label CDC_ACM_0 label with an overlay so "modules/libmicroros/microros_transports/serial-usb/microros_transports.c" can find the device
+  * Update app.overlay
+  * Update app.overlay
+  A fix for backwards compability
+  * Update app.overlay
+  * Update app.overlay
+  * Update prj.conf
+  * Better comments
+  * Changed settings to conditional from transport choice
+  * Update prj.conf
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+  * Update modules/libmicroros/Kconfig
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+  ---------
+  Co-authored-by: scrapforge <rumpelcode@gmx.de>
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Update CI with Serial USB build (`#126 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/126>`_)
+* Fix Nightly
+* Remove micro-ROS fork (backport `#123 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/123>`_) (`#124 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/124>`_)
+  * Remove micro-ROS fork (`#123 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/123>`_)
+  (cherry picked from commit 54e49daae4e9420c9eedc64807907fce48f9c078)
+  # Conflicts:
+  #	modules/libmicroros/libmicroros.mk
+  * Fix conflicts
+  ---------
+  Co-authored-by: Antonio Cuadros <49162117+Acuadros95@users.noreply.github.com>
+  Co-authored-by: acuadros95 <acuadros1995@gmail.com>
+* Contributors: Pablo Garrido, mergify[bot], scrapforge
+
 4.1.0 (2023-06-12)
 ------------------
 * Update repos to iron (`#122 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/122>`_)
