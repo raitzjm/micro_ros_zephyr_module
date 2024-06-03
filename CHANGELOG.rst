@@ -2,6 +2,36 @@
 Changelog for package micro_ros_zephyr
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Ignore lttngpy (`#135 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/135>`_)
+* Fix of unknown Ringbuffer and not found USB-Serial Device (`#125 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/125>`_) (`#130 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/130>`_)
+  * Added Ringbuffer-config in prj.conf for eliminating error
+  * Added Label CDC_ACM_0 label with an overlay so "modules/libmicroros/microros_transports/serial-usb/microros_transports.c" can find the device
+  * Update app.overlay
+  * Update app.overlay
+  A fix for backwards compability
+  * Update app.overlay
+  * Update app.overlay
+  * Update prj.conf
+  * Better comments
+  * Changed settings to conditional from transport choice
+  * Update prj.conf
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+  * Update modules/libmicroros/Kconfig
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+  ---------
+  Co-authored-by: scrapforge <rumpelcode@gmx.de>
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+  (cherry picked from commit 7c5edcdf9e0a6c6e131d9e45ad357fa0757a5584)
+  Co-authored-by: scrapforge <99104728+scrapforge@users.noreply.github.com>
+* Update CI with Serial USB build (`#126 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/126>`_) (`#128 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/128>`_)
+  (cherry picked from commit e1e23407664625c5cb145c791561007fe6d51df9)
+  Co-authored-by: Pablo Garrido <pablogs9@gmail.com>
+* Fix Nightly
+* Remove micro-ROS fork (`#123 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/123>`_)
+* Contributors: Antonio Cuadros, Pablo Garrido, mergify[bot]
+
 5.0.0 (2023-06-12)
 ------------------
 * Update branches to rolling (`#121 <https://github.com/micro-ROS/micro_ros_zephyr_module/issues/121>`_)
