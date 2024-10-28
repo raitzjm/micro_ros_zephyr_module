@@ -25,6 +25,8 @@ if MICROROS
              select USB_DEVICE_STACK
         config MICROROS_TRANSPORT_UDP
             bool "micro-ROS UDP network transport"
+        config MICROROS_TRANSPORT_CAN_FD
+            bool "micro-ROS CAN-FD transport"
         
     endchoice
 
